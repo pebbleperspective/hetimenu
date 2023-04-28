@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ruda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+body {
+    margin: 0px;
+    background-color: rgb(27, 39, 39);
+    color: blanchedalmond;
+    font-family: 'Inconsolata', 'Ruda', sans-serif, 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Caveat', cursive, 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    text-shadow: 0px 0px 9px yellowgreen;
+    margin-top: 0px;
+    text-align: center;
+}
+h2 {
+    font-family: 'Caveat', cursive, 'Courier New', Courier, monospace;
+    font-size: 1.8rem;
+    margin-top: unset;
+    margin-bottom: unset;
+    text-shadow: 0px 0px 7px rgb(27,39,39);
+    background-image: linear-gradient(49deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    border-radius: 21px;
+}
+h3 {
+    font-family: 'Caveat', cursive, 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    padding: 0px;
+    margin: 7px 0px 2px 0px;
+    text-shadow: 0px 0px 4px rgb(27,39,39);
+    text-indent: -11px;
+    background-image: linear-gradient(49deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    border-radius: 21px;
+}
+
+#tartalom {
+    max-width: 420px;
+    padding: 21px;
+    margin: 8px;
+    border: 6px solid rgba(255, 255, 255, 0.8);
+    border-radius: 44px;
+    box-shadow: 0px 0px 7px rgba(255, 255, 255, 0.8);
+    background-image: linear-gradient(161deg, rgb(27, 39, 39), rgba(77, 88, 66),rgba(77, 88, 66));
+}
+
+.felhok {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+.foodType {
+    padding: 7px;
+    background-image: linear-gradient(66deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.4));
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 21px;
+    width: 100%;
+}
+
+button {
+    padding: 4px 11px;
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 14px;
+    border: 1px solid rgba(27, 39, 39, 0.5);
+    box-shadow: 1px 1px 3px black;
+    color: whitesmoke;
+    font-size: 1.1rem;
+    font-family: 'Inconsolata', 'Ruda', sans-serif;
+}
+
+#leves,
+#levesLista,
+#rizses,
+#rizsesLista,
+#teszta,
+#tesztaLista,
+#fozelek,
+#fozelekLista,
+#sult,
+#sultLista {
+    display: none;
+    margin-left: 14px;
+}
+
+#randomLeves,
+#randomFozelek,
+#randomTeszta,
+#randomRizses,
+#randomSult {
+    display: none;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-shadow: 0px 0px 4px black;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px dotted rgba(27, 39, 39,0.7);
+    box-shadow: 0px 0px 4px rgba(255,255,255,0.7);
+    padding: 11px;
+    margin: 7px;
+    border-radius: 14px;
+}
+
+img {
+    float: right;
+    width: 48px;
+    border: 1px dotted whitesmoke;
+    margin: 5px;
+    padding: 9px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px rgb(27,39,39);
+}
+
+#randomMenu {
+    padding-left: 21px;
+    padding-right: 7px;
+    display: none;
+    list-style-type: none;
+}
+footer {
+    max-width: 455px;
+    padding: 3px 14px;
+    text-align: center;
+}
+a {
+    color: unset;
+    text-decoration: none;
+}

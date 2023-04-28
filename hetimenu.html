@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Parlag Gábor » pebbleperspective@gmail.com">
+    <meta name="description" content="Heti menü készítő">
+    <link rel="stylesheet" href="hetimenu.css">
+    <!-- <link rel="stylesheet" href="hetimenu_2.css"> -->
+    <title>Mit főzzek ma?! - Heti menü készítő</title>
+</head>
+
+<body>
+    <div id="tartalom">
+        <h1>Mit főzzek ma?!</h1>
+        <div class="felhok">
+            <div class="foodType">
+                <button type="button" id="levesGomb">Levesek</button>
+                <img src="ico/icons8-soup-plate-48.png" alt="Leves ikon" title="Mutass másik levest!" id="levesAjanlo">
+                <h2 id="leves"></h2>
+                <ul id="levesLista"></ul>
+                <div class="randomEtel">
+                    <button type="button" id="randomLevesGomb">Mai leves</button>
+                    <p id="randomLeves"></p>
+                </div>
+            </div>
+            <div class="foodType">
+                <button type="button" id="fozelekGomb">Főzelékek</button>
+                <img src="ico/192529_soup_bowl_cauldron_icon.png" alt="Főzelék ikon" title="Mutass másik főzeléket!" id="fozelekAjanlo">
+                <h2 id="fozelek"></h2>
+                <ul id="fozelekLista"></ul>
+                <div class="randomEtel">
+                    <button type="button" id="randomFozelekGomb">Mai főzelék</button>
+                    <p id="randomFozelek"></p>
+                </div>
+            </div>
+            <div class="foodType">
+                <button type="button" id="tesztaGomb">Tészták</button>
+                <img src="ico/icons8-spaghetti-100.png" alt="Tészta ikon" title="Mutass másik tésztát!" id="tesztaAjanlo">
+                <h2 id="teszta"></h2>
+                <ul id="tesztaLista"></ul>
+                <div class="randomEtel">
+                    <button type="button" id="randomTesztaGomb">Mai tészta</button>
+                    <p id="randomTeszta"></p>
+                </div>
+            </div>
+            <div class="foodType">
+                <button type="button" id="rizsesGomb">Rizses ételek</button>
+                <img src="ico/icons8-grains-of-rice-48.png" alt="Rizses ételek ikon" title="Mutass másik rizses ételt!" id="rizsesAjanlo">
+                <h2 id="rizses"></h2>
+                <ul id="rizsesLista"></ul>
+                <div class="randomEtel">
+                    <button type="button" id="randomRizsesGomb">Mai rizses étel</button>
+                    <p id="randomRizses"></p>
+                </div>
+            </div>
+            <div class="foodType">
+                <button type="button" id="sultGomb">Sült ételek</button>
+                <img src="ico/icons8-oven-mitten-48.png" alt="Sült ételek ikon" title="Mutass másik sült ételt!" id="sultAjanlo">
+                <h2 id="sult"></h2>
+                <ul id="sultLista"></ul>
+                <div class="randomEtel">
+                    <button type="button" id="randomSultGomb">Mai sült étel</button>
+                    <p id="randomSult"></p>
+                </div>
+            </div>
+            <!-- Random menü készítő -->
+            <div class="foodType">
+                <div class="randomEtel">
+                    <button type="button" id="randomMenuGomb">Heti menü</button>
+                    <img src="ico/icons8-calendar-48.png" alt="Menü ikon" title="Mutass másik menüt!" id="menuAjanlo">
+                    <ul id="randomMenu"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        Jó étvágyat! © 2022 <a href="mailto:pebbleperspective@gmail.com">pebbleperspective</a>
+    </footer>
+
+    <script src="hetimenuadatbazis.js"></script>
+    <script src="hetimenu.js"></script>
+</body>
+
+</html>
